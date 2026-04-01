@@ -3,7 +3,7 @@ import { FiCheck } from 'react-icons/fi';
 
 const ProductList = ({ products, cartItems, handleAddToCart }) => {
   
-  // Tag Color Logic
+ 
   const getTagStyle = (type) => {
     switch(type) {
       case 'best-seller': return 'bg-yellow-100 text-yellow-700';
@@ -21,7 +21,7 @@ const ProductList = ({ products, cartItems, handleAddToCart }) => {
         return (
           <div key={product.id} className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow flex flex-col h-full">
             
-            {/* Header: Icon & Tag */}
+      
             <div className="flex justify-between items-start mb-4">
               <div className="w-12 h-12 bg-gray-50 rounded-lg flex items-center justify-center p-2">
                 <img src={product.icon} alt={product.name} className="w-full h-full object-contain" />
@@ -31,7 +31,7 @@ const ProductList = ({ products, cartItems, handleAddToCart }) => {
               </span>
             </div>
 
-            {/* Content */}
+           
             <h3 className="text-xl font-bold text-gray-900 mb-2">{product.name}</h3>
             <p className="text-sm text-gray-500 mb-4 line-clamp-2">{product.description}</p>
             
@@ -40,7 +40,7 @@ const ProductList = ({ products, cartItems, handleAddToCart }) => {
               <span className="text-sm text-gray-500 font-medium">/{product.period}</span>
             </div>
 
-            {/* Features */}
+           
             <ul className="flex-grow space-y-2 mb-6 text-sm text-gray-600">
               {product.features.map((feature, idx) => (
                 <li key={idx} className="flex items-center gap-2">
@@ -50,7 +50,6 @@ const ProductList = ({ products, cartItems, handleAddToCart }) => {
               ))}
             </ul>
 
-            {/* Action Button */}
             <button 
               onClick={() => handleAddToCart(product)}
               disabled={isAdded}
