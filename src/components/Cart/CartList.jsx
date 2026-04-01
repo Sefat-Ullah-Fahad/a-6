@@ -2,7 +2,7 @@ import React from 'react';
 
 const CartList = ({ cartItems, handleRemove, handleCheckout }) => {
   
-  // Total Price Calculation
+
   const totalPrice = cartItems.reduce((acc, item) => acc + item.price, 0);
 
   return (
@@ -37,7 +37,7 @@ const CartList = ({ cartItems, handleRemove, handleCheckout }) => {
             ))}
           </div>
 
-          {/* Footer Area with Total */}
+       
           <div className="flex justify-between items-center py-4 mb-4">
             <span className="text-gray-500 font-medium">Total:</span>
             <span className="text-2xl font-bold text-gray-900">${totalPrice}</span>

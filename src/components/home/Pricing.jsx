@@ -45,7 +45,7 @@ const Pricing = () => {
           <div 
             key={index}
             className={`relative p-8 rounded-3xl border transition-all duration-500 flex flex-col h-full cursor-default
-              /* হোভার ইফেক্ট: কার্ড একটু উপরে উঠবে এবং শ্যাডো বাড়বে */
+
               hover:-translate-y-3 hover:shadow-2xl 
               ${
               plan.isPopular 
@@ -86,7 +86,7 @@ const Pricing = () => {
               ))}
             </ul>
 
-            {/* বাটন ইফেক্ট: মাউস নিলে হাতের চিহ্ন আসবে এবং হালকা বড় হবে */}
+            
             <button 
               className={`w-full py-4 rounded-2xl font-bold text-sm transition-all duration-300 cursor-pointer active:scale-95
                 ${
