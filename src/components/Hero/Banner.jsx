@@ -1,6 +1,6 @@
 import React from 'react';
-import bannerImg from '../../assets/banner.png'; // আপনার assets ফোল্ডার থেকে ইমেজ ইম্পোর্ট
-import { BsPlayCircle } from 'react-icons/bs'; // প্লে আইকনের জন্য
+import bannerImg from '../../assets/banner.png'; 
+import { BsPlayCircle } from 'react-icons/bs'; 
 
 const Banner = () => {
   return (
