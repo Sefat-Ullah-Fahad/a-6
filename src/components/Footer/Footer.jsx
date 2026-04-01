@@ -6,10 +6,10 @@ const Footer = () => {
     <footer className="bg-[#0F172A] text-white pt-20 pb-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Top Section: Logo, Description & Links */}
+       
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
           
-          {/* Logo & Description */}
+        
           <div className="lg:col-span-2">
             <h2 className="text-3xl font-bold mb-6 tracking-tight">DigiTools</h2>
             <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
@@ -17,7 +17,7 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Product Links */}
+         
           <div>
             <h4 className="text-lg font-semibold mb-6">Product</h4>
             <ul className="space-y-4 text-gray-400 text-sm">
@@ -28,7 +28,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Company Links */}
+
           <div>
             <h4 className="text-lg font-semibold mb-6">Company</h4>
             <ul className="space-y-4 text-gray-400 text-sm">
@@ -39,11 +39,11 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Social Links Section */}
+       
           <div>
             <h4 className="text-lg font-semibold mb-6">Social Links</h4>
             <div className="flex gap-4">
-              {/* Social Icons with Hover */}
+           
               <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#8B5CF6] transition-all duration-300 cursor-pointer">
                 <FaInstagram className="text-lg" />
               </a>
@@ -57,7 +57,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Section: Copyright & Policy */}
+
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-gray-500 text-sm">
             © 2026 DigiTools. All rights reserved.
