@@ -23,6 +23,7 @@ const Navbar = ({ cartCount = 0 }) => {
        
           <a href="/" className="text-2xl sm:text-3xl font-bold text-[#8B5CF6] cursor-pointer tracking-tight">
             DigiTools
+            
           </a>
         </div>
 
