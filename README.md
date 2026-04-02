@@ -1,16 +1,24 @@
-# React + Vite
+# 🚀 DigiTools - Premium Digital Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![DigiTools Banner](https://via.placeholder.com/1200x400/8B5CF6/FFFFFF?text=Welcome+to+DigiTools)
 
-Currently, two official plugins are available:
+## 📖 Description
+DigiTools is a modern, fully responsive web application designed for a seamless digital product browsing and purchasing experience. Built with a clean UI, it allows users to explore premium tools, add them to a dynamic cart, and seamlessly proceed to checkout with real-time interactive feedback.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Technologies Used
+This project is built using the following modern web technologies:
 
-## React Compiler
+* **React.js** - Frontend Library
+* **Tailwind CSS** - Utility-first CSS framework
+* **DaisyUI** - Component library for Tailwind CSS
+* **JavaScript (ES6+)** - Core logic and state management
+* **React-Toastify** - For interactive alerts and notifications
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Top 3 Features
 
-## Expanding the ESLint configuration
+1. **🛍️ Dynamic Cart Management:** Users can easily add products to their cart, remove selected items, and view the total calculated price instantly. The cart badge in the navbar updates in real-time.
+2. **🔄 Smooth Section Toggling:** A seamless toggle functionality allows users to switch between the "Products" grid and "Cart" list view instantly without any page reloads.
+3. **🔔 Interactive Notifications:** Integrated with React-Toastify to provide immediate, beautiful toast alerts for every user action, such as "Added to cart", "Product removed", or successful checkout.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+*Built with ❤️ by a passionate Web Developer.*
