@@ -3,7 +3,7 @@ import ProductList from '../Products/ProductList';
 import CartList from '../Cart/CartList';
 
 const MainContainer = ({ products, cartItems, handleAddToCart, handleRemoveFromCart, handleCheckout }) => {
-  const [activeTab, setActiveTab] = useState('products'); // ডিফল্ট 'products'
+  const [activeTab, setActiveTab] = useState('products'); 
 
   return (
     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -14,7 +14,6 @@ const MainContainer = ({ products, cartItems, handleAddToCart, handleRemoveFromC
         </p>
       </div>
 
-      {/* Toggle Buttons */}
       <div className="flex justify-center items-center gap-2 mb-12">
         <button 
           onClick={() => setActiveTab('products')}
@@ -30,7 +29,6 @@ const MainContainer = ({ products, cartItems, handleAddToCart, handleRemoveFromC
         </button>
       </div>
 
-      {/* Conditional Rendering */}
       {activeTab === 'products' ? (
         <ProductList products={products} cartItems={cartItems} handleAddToCart={handleAddToCart} />
       ) : (
